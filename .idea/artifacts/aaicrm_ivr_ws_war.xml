@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="aaicrm-ivr-ws:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>aaicrm-ivr-ws</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="crm-1.0.0-BUILD-SNAPSHOT.war">
+      <element id="artifact" artifact-name="aaicrm-ivr-ws:war exploded" />
+    </root>
+  </artifact>
+</component>
