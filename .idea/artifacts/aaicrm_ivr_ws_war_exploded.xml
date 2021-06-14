@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="aaicrm-ivr-ws:war exploded">
-    <output-path>$PROJECT_DIR$/target/crm-1.0.0-BUILD-SNAPSHOT</output-path>
+    <output-path>$PROJECT_DIR$/src/main/webapp</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
@@ -13,9 +13,14 @@
         <element id="directory" name="classes">
           <element id="module-output" name="aaicrm-ivr-ws" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.apache.maven.plugins:maven-clean-plugin:2.5" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-plugin-api:2.0.6" />
+          <element id="library" level="project" name="Maven: org.codehaus.plexus:plexus-utils:3.0" />
+        </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/crm-1.0.0-BUILD-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/target/crm-2.0.0/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="aaicrm-ivr-ws/web/Web" />
     </root>
