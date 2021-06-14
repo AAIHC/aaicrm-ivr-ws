@@ -34,7 +34,7 @@ public class IVRWsDaoImpl implements IVRWsDao {
 			System.out.println("IvrDnisNo : " + IvrDnisNo);
 			System.out.println("CID : " + CID);
 
-			if(0 < insIVR_EVT0001(CallKey, IvrSysNo, TrmsDttm, IvrDnisNo, CID)){
+			if (0 < insIVR_EVT0001(CallKey, IvrSysNo, TrmsDttm, IvrDnisNo, CID)) {
 				rtnChk = "Y";
 			}
 
@@ -88,7 +88,7 @@ public class IVRWsDaoImpl implements IVRWsDao {
 		String rtnChk = "";
 		try {
 			StringBuffer sql = new StringBuffer();
-			sql.append("\n SELECT [dbo].[EncryptT](?) AS Encrypt ");
+			sql.append("\n SELECT [dbo].[fnEncryptT](?) AS Encrypt ");
 			Object[] obj = new Object[1];
 			obj[0] = v;
 			rtnChk = jdbcTemplate.queryForObject(sql.toString(),obj, String.class);

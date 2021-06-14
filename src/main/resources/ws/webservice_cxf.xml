@@ -6,9 +6,6 @@ http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans.xsd
 http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd">
 
-	<jaxws:endpoint id="iVRWs" implementor="com.aaihc.crm.ws.ivr.ws.IVRWsImpl"
-		address="/IVRWs" />
-
-
+	<jaxws:endpoint id="iVRWs" implementor="com.aaihc.crm.ws.ivr.ws.IVRWsImpl" address="/IVRWs" />
 </beans>
 
