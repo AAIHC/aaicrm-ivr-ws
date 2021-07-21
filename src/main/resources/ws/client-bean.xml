@@ -7,6 +7,7 @@ http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
 http://cxf.apache.org/jaxws
 http://cxf.apache.org/schemas/jaxws.xsd">
 
-	<jaxws:client id="client1" serviceClass="com.aaihc.crm.ws.ivr.ws.IVRWs" address="http://127.0.0.1:8380/ws/IVRWs" />
-	<!--<jaxws:client id="client1" serviceClass="com.aaihc.crm.ws.ivr.ws.IVRWs" address="http://dev-ivr.aaihc.com/ws/IVRWs" />-->
+<!--	<jaxws:client id="client1" serviceClass="com.aaihc.crm.ws.ivr.ws.IVRWs" address="http://127.0.0.1:8380/ws/IVRWs" />-->
+<!--	<jaxws:client id="client1" serviceClass="com.aaihc.crm.ws.ivr.ws.IVRWs" address="http://dev-ivr.aaihc.com/ws/ivrws" />-->
+	<jaxws:client id="client1" serviceClass="com.aaihc.crm.ws.ivr.ws.IVRWs" address="http://172.30.130.36:8380/ws/IVRWs" />
 </beans>
