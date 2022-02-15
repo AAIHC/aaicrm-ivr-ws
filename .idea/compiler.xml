@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="aaicrm-ivr-ws" target="6" />
+      <module name="aaicrm-ivr-ws" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
